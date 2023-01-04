@@ -1,13 +1,19 @@
 /* Tag Selectors */
 body {
-    background-color: hsl(212, 45%, 89%);
+  background-color: hsl(212, 45%, 89%);
+  margin: 8px 8px 0 8px;
+  height: 100vh;
 }
 
 h1 {
   font-family: "Outfit";
   font-weight: 700;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: hsl(218, 44%, 22%);
+}
+
+img {
+  border-radius: 0.5rem;
 }
 
 a {
@@ -17,6 +23,19 @@ a {
 /* Class Selectors */
 .qr-code-container {
   background-color: hsl(0, 0%, 100%);
+  border-radius: 0.5rem;
+  box-shadow: 10px 8px 6px rgb(0 0 0 / 0.3);
+  width: 19rem;
+  height: 30rem;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.qr-code-text {
+    padding: 10px;
+    text-align: center;
 }
 
 .qr-code-paragraph {
@@ -30,6 +49,7 @@ a {
   font-family: "Outfit";
   font-weight: 400;
   font-size: 0.7rem;
-  text-align: center;
   color: hsl(218, 44%, 22%);
+  display: flex;
+  justify-content: center;
 }

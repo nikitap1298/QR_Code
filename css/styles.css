@@ -1,7 +1,35 @@
-.attribution {
-  font-size: 11px;
-  text-align: center;
+/* Tag Selectors */
+body {
+    background-color: hsl(212, 45%, 89%);
 }
-.attribution a {
+
+h1 {
+  font-family: "Outfit";
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: hsl(218, 44%, 22%);
+}
+
+a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Class Selectors */
+.qr-code-container {
+  background-color: hsl(0, 0%, 100%);
+}
+
+.qr-code-paragraph {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 1rem;
+  color: hsl(220, 15%, 55%);
+}
+
+.credits-container {
+  font-family: "Outfit";
+  font-weight: 400;
+  font-size: 0.7rem;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
 }
